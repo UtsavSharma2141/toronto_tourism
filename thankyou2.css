@@ -1,0 +1,32 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffd740;
+  text-align: center;
+}
+.nav-list{
+  width: 50%;
+  align-items:center;
+  text-align: center;
+  display: flex;
+  
+
+}
+.nav-list li{
+  list-style: none;
+  padding: 10px 160px;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .nav-list li a{
+  text-decoration: none;
+  text-size-adjust: 20px;
+  color: black;
+  align-items: center;
+  }
+  .nav-list li a:hover{
+    color:blue;
+    }

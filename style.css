@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+   
+}
+.logo img{
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin-top: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    /* color: seashell; */
+    align-items:center;
+    display: flex;
+}
+
+.nav-list li{
+list-style: none;
+padding: 24px 28px;
+}
+
+.nav-list li a{
+text-decoration: none;
+text-size-adjust: 20px;
+color: white;
+}
+
+.rightNav{
+    /* background-color: cadetblue; */
+    width: 50%;
+    text-align: right;
+}
+
+.nav-list li a:hover{
+    color:chartreuse;
+    }
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 125vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 70%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    color: wh;
+}
+
+.firsthalf img{
+    width: 130%;
+     display: block; 
+    margin-left: -20pc;
+     margin-right: auto; 
+    margin-top: 20px;
+    border: 4px solid white;
+} 
+
+ .secondhalf{
+    width: 40%;
+     display: inline; 
+     flex-direction: column;
+    justify-content: center; 
+} 
+
+.text-big{
+    font-size: 30px;
+}
+.text-small{
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 4px solid white;
+    /* border-radius: 40%; */
+  }
+
+  #wrap { 
+	width: 1000px; 
+	margin: 0 auto; 
+}
+
+.footer p{
+    color:black;
+    text-align: center; 
+    padding: 16px;   
+    } 
+    
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #ffd740;
+      text-align: center;
+    }
+

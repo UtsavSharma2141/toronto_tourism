@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+  }
+  body {
+    background:lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family:'Helvetica', sans-serif;
+    font-size:16px  
+  }
+  
+  h1 {
+      font-size: 1.8rem; 
+      text-align: center;
+  }
+
+  .thank-you-container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0 4em;
+}
+.thank-you-box {
+    background: #B6FFCD;
+    color: #000;
+    padding: 1em 0.5em;
+    border-radius: 5px;
+    text-align: center;
+    border: 5px solid cornflowerblue;
+    border-radius: 50px;
+    height: 30ch;
+    width: 150%;
+    margin-left: -75px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffd740;
+  text-align: center;
+}
+.nav-list{
+  width: 50%;
+  align-items:center;
+  text-align: center;
+  display: flex;
+  
+
+}
+.nav-list li{
+  list-style: none;
+  padding: 10px 110px;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .nav-list li a{
+  text-decoration: none;
+  text-size-adjust: 20px;
+  color: black;
+  align-items: center;
+  }
+  .nav-list li a:hover{
+    color:blue;
+    }

@@ -1,0 +1,127 @@
+/* Styles */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Open Sans";
+    font-size: 14px;
+        margin: 0;
+        padding: 0;
+        background: url(bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+        background-blend-mode: darken;
+        font-family: sans-serif;
+        margin-top: 80px;
+    
+  }
+  
+  .container {
+    width: 500px;
+    margin: 25px auto;
+  }
+  
+  
+  form {
+    padding: 41px;
+    color: black;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 50px;
+    background: darkgray;
+    
+  }
+  form label,
+  form input,
+  form button {
+    border: 0;
+    margin-bottom: 9px;
+    display: block;
+    width: 100%;
+  }
+  form input {
+    height: 25px;
+    line-height: 25px;
+    background: white ;
+    color: #000;
+    padding: 0 6px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  form button {
+    height: 30px;
+    line-height: 30px;
+    background: black;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+form button:hover{
+  background: chartreuse;
+  color: #262626;
+}
+
+  form .error {
+    color: #ff0000;
+  }
+  .login{
+    text-align: center;
+  }
+  
+  .user{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(44px/2);
+    left: calc(50% - 69px);
+    border-radius: 50%;
+  }
+  .footer p{
+    color:black;
+    text-align: center; 
+    padding: 16px;   
+    } 
+    
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #ffd740;
+      text-align: center;
+    }
+    .nav-list{
+      width: 50%;
+      align-items:center;
+      text-align: center;
+      display: flex;
+      
+    
+    }
+    .nav-list li{
+      list-style: none;
+      padding: 10px 160px;
+      align-items: center;
+      text-align: center;
+      }
+      
+      .nav-list li a{
+      text-decoration: none;
+      text-size-adjust: 20px;
+      color: black;
+      align-items: center;
+      }
+      .nav-list li a:hover{
+        color:blue;
+        }
+    
+        .first-section{
+          text-align: center;
+          align-items: center;
+        }
